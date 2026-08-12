@@ -1,5 +1,5 @@
 // Nebula Blaster – offline service worker
-const CACHE = 'nebula-blaster-v1';
+const CACHE = 'nebula-blaster-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -8,7 +8,12 @@ const ASSETS = [
   './icons/icon-180.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  './icons/maskable-512.png'
+  './icons/maskable-512.png',
+  './icons/alien.svg',
+  './icons/alien-180.png',
+  './icons/alien-192.png',
+  './icons/alien-512.png',
+  './icons/alien-maskable-512.png'
 ];
 
 self.addEventListener('install', (e) => {

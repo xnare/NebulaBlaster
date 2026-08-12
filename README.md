@@ -1,10 +1,12 @@
 # 🚀 Nebula Blaster
 
-Ein touch-optimierter **Space Shooter** fürs Handy – geschrieben in reinem HTML5 Canvas + JavaScript, ohne Framework, ohne Build-Schritt. Räum die Aliens ab!
+Ein touch-optimierter **Space Shooter** fürs Handy – geschrieben in reinem HTML5 Canvas + JavaScript, ohne Framework, ohne Build-Schritt. Räum die Glatzen-Aliens mit Brille ab!
 
 Installierbar als **PWA**: zum Homescreen hinzufügen und **offline** spielen.
 
-![Icon](icons/icon-512.png)
+![Icon](icons/alien-512.png)
+
+> Zwei App-Icons liegen bei: das Alien-Gesicht (`icons/alien.svg`, Standard) und die Szene mit Schiff (`icons/icon.svg`).
 
 ## Spielen
 
