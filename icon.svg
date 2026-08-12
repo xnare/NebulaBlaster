@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#1a2352"/>
+      <stop offset="100%" stop-color="#0a0e1f"/>
+    </radialGradient>
+    <linearGradient id="ship" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8af3ff"/>
+      <stop offset="100%" stop-color="#3a7fff"/>
+    </linearGradient>
+    <radialGradient id="alien" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#8affb0"/>
+      <stop offset="100%" stop-color="#1f9e4d"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- stars -->
+  <g fill="#cfe4ff">
+    <circle cx="90" cy="110" r="4"/><circle cx="420" cy="90" r="3"/>
+    <circle cx="150" cy="380" r="3"/><circle cx="380" cy="420" r="4"/>
+    <circle cx="440" cy="240" r="3"/><circle cx="70" cy="270" r="3"/>
+  </g>
+  <!-- alien target -->
+  <g transform="translate(340,170)">
+    <circle r="70" fill="url(#alien)"/>
+    <g stroke="#0a0e1f" stroke-width="12" fill="rgba(200,240,255,.85)">
+      <circle cx="-26" cy="-4" r="24"/><circle cx="26" cy="-4" r="24"/>
+    </g>
+    <line x1="-2" y1="-4" x2="2" y2="-4" stroke="#0a0e1f" stroke-width="9"/>
+    <circle cx="-26" cy="-4" r="9" fill="#0a0e1f"/><circle cx="26" cy="-4" r="9" fill="#0a0e1f"/>
+  </g>
+  <!-- ship -->
+  <g transform="translate(200,340)">
+    <path d="M0,-90 L60,64 L0,32 L-60,64 Z" fill="url(#ship)"/>
+    <circle cy="-16" r="20" fill="#0a0e1f"/>
+    <path d="M-24,64 L0,120 L24,64 Z" fill="#ffb050"/>
+  </g>
+  <!-- plasma bolt -->
+  <rect x="192" y="200" width="16" height="52" rx="8" fill="#8af3ff"/>
+</svg>
