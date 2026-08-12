@@ -1,5 +1,5 @@
 // Nebula Blaster – offline service worker
-const CACHE = 'nebula-blaster-v2';
+const CACHE = 'nebula-blaster-v3';
 const ASSETS = [
   './',
   './index.html',
